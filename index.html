@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="stile.css" />
+  </head>
+  <body>
+    <header class="container">
+      <img src="./images/logo.svg" alt="Logo" width="40" />
+      <h1>Body Mass Index Calculator</h1>
+      <p>
+        Better understand your weight in relation to your height using our body
+        mass index (BMI) calculator.
+      </p>
+      <div class="bmi-box">
+        <h3>Enter your details below</h3>
+        <div>
+          <label><input type="radio" name="unit" checked /> Metric</label>
+          <label><input type="radio" name="unit" /> Imperial</label>
+        </div>
+        <div class="calc-inputs">
+          <input type="number" placeholder="Height" />
+          <input type="number" placeholder="Weight" />
+          <button>Calculate</button>
+        </div>
+        <p>
+          Welcome! Enter your height and weight and you'll see your BMI result
+          here
+        </p>
+      </div>
+    </header>
+
+    <section class="container hero-section">
+      <img src="./images/image-man-eating.webp" alt="Man eating" />
+      <div class="section-box">
+        <h2>What your BMI result means</h2>
+        <p>A BMI range of 18.5 to 24.9 is considered a 'healthy weight'...</p>
+        <div class="cards">
+          <div class="card">
+            <img src="./images/icon-eating.svg" alt="Eating" />
+            <div>
+              <h4>Healthy eating</h4>
+              <p>
+                Healthy eating promotes weight control, disease prevention,
+                digestion, and mood.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/icon-exercise.svg" alt="Exercise" />
+            <div>
+              <h4>Regular exercise</h4>
+              <p>
+                Exercise improves fitness and weight control, and reduces
+                disease risk.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/icon-sleep.svg" alt="Sleep" />
+            <div>
+              <h4>Adequate sleep</h4>
+              <p>
+                Sleep enhances mental clarity, emotional stability, and
+                wellness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section-box">
+      <h2>Limitations of BMI</h2>
+      <p>
+        Although BMI is often a practical indicator of healthy weight, it is not
+        suited for every person.
+      </p>
+      <div class="cards">
+        <div class="card">
+          <img src="./images/icon-gender.svg" alt="Gender" />
+          <div>
+            <h4>Gender</h4>
+            <p>Boys and girls develop differently and BMI considers gender.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/icon-age.svg" alt="Age" />
+          <div>
+            <h4>Age</h4>
+            <p>
+              Increased body fat and muscle loss can affect BMI accuracy in
+              older adults.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/icon-muscle.svg" alt="Muscle" />
+          <div>
+            <h4>Muscle</h4>
+            <p>
+              Muscular individuals may be misclassified due to BMI not
+              distinguishing muscle from fat.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/icon-pregnancy.svg" alt="Pregnancy" />
+          <div>
+            <h4>Pregnancy</h4>
+            <p>Pre-pregnancy BMI is advised for health assessments.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/icon-race.svg" alt="Race" />
+          <div>
+            <h4>Race</h4>
+            <p>
+              Health outcomes may differ between ethnic groups even at lower
+              BMIs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
