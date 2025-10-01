@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Modern Login Page</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="background-video">
+      <source src="coding-1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Create Account</h1>
+          <div class="social-icons">
+            <a href="#" class="icon">
+              <div class="layer">
+                <span class="fa-brands fa-google"></span>
+                <span class="fa-brands fa-google"></span>
+                <span class="fa-brands fa-google"></span>
+                <span class="fa-brands fa-google"></span>
+              </div>
+            </a>
+            <a href="#" class="icon">
+              <div class="layer">
+                <span class="fa-brands fa-facebook-f"></span>
+                <span class="fa-brands fa-facebook-f"></span>
+                <span class="fa-brands fa-facebook-f"></span>
+                <span class="fa-brands fa-facebook-f"></span>
+              </div>
+            </a>
+            <a href="#" class="icon">
+              <div class="layer">
+                <span class="fa-brands fa-github"></span>
+                <span class="fa-brands fa-github"></span>
+                <span class="fa-brands fa-github"></span>
+                <span class="fa-brands fa-github"></span>
+              </div>
+            </a>
+          </div>
+          <span>or use your email for registeration</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="/goa official site main/index.html" class="button">Sign up</a>  
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form>
+          <h1>Sign In</h1>
+          <div class="social-icons">
+            <a href="#" class="icon">
+              <div class="layer">
+                <span class="fa-brands fa-google"></span>
+                <span class="fa-brands fa-google"></span>
+                <span class="fa-brands fa-google"></span>
+                <span class="fa-brands fa-google"></span>
+              </div>
+            </a>
+            <a href="#" class="icon">
+              <div class="layer">
+                <span class="fa-brands fa-facebook-f"></span>
+                <span class="fa-brands fa-facebook-f"></span>
+                <span class="fa-brands fa-facebook-f"></span>
+                <span class="fa-brands fa-facebook-f"></span>
+              </div>
+            </a>
+            <a href="#" class="icon">
+              <div class="layer">
+                <span class="fa-brands fa-github"></span>
+                <span class="fa-brands fa-github"></span>
+                <span class="fa-brands fa-github"></span>
+                <span class="fa-brands fa-github"></span>
+              </div>
+            </a>
+          </div>
+          <span>or use your email password</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Forget Your Password?</a>
+          <a href="/goa official site main/index.html" class="button">Sign in</a>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome Back!</h1>
+            <p>Enter your personal details to use all of site features</p>
+            <button class="hidden" id="login">Sign In</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hello, Friend!</h1>
+            <p>
+              Register with your personal details to use all of site features
+            </p>
+            <button class="hidden" id="register">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="google_translate_element" style="border: 2px solid black; border-radius: 5px;"></div>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
