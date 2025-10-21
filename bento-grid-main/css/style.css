@@ -18,7 +18,7 @@
 body {
   background-color: #f2f2f2;
   min-height: 100vh;
-  font-family: "DM Sans";
+  font-family: --family;
   font-size: --fs;
   line-height: 1;
 }
@@ -213,4 +213,40 @@ img {
   .bento-grid__item:nth-child(3) {
     padding-right: 15px;
   }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+#div1, #div2, #div4, #div5, #div7{
+  animation: moveInLeft 1s ease-out;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  80% {
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+#div3, #div6, #div8{
+  animation: moveInRight 1s ease-out;
 }
